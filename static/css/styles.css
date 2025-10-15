@@ -1,0 +1,60 @@
+/* Reinicio de los estilos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg, #125e1e, #c9d6ff);
+}
+header{
+width: 100%;
+display: flex;
+background: linear-gradient(135deg, #184739, #253158);
+color: white;
+height: 60px;
+justify-content: center;
+border-bottom: 3px solid rgb(121, 119, 119);
+
+}
+
+h1{
+padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button{
+    color: white;
+    width: 400px;
+    border: none;
+    background-color: rgb(14, 160, 14);
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+button:hover{
+    border: none;
+    width: 200px;
+    background: linear-gradient(135deg, #506b5a, #063606);
+    box-shadow: 7px 5px rgb(145, 143, 143);
+    transform: scale(1.1);
+    transition: 2s ease;
+    color: #fff;
+}
+
+.colores{
+    color: rgb(186, 224, 16);
+}
+
